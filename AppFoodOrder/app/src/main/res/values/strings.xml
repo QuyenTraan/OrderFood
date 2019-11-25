@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppFoodOrder</string>
+    <string name="tendangnhap">Tên Đăng Nhập:</string>
+    <string name="matkhau">Mật khẩu: </string>
+    <string name="female">Nữ</string>
+    <string name="Male">Nam</string>
+    <string name="ngaysinh">Ngày Sinh </string>
+    <string name="idcard">Chứng minh nhân dân</string>
+    <string name="DangNhap">Đăng Nhập</string>
+    <string name="Cancel">Hủy</string>
+    <string name="dangky">Đăng Ký</string>
+</resources>

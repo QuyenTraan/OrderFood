@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/facebook"
+    tools:context=".DangKyActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/dangky"
+    android:layout_above="@+id/lnKhungDangKy"
+    android:layout_centerHorizontal="true"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:textStyle="bold"
+    android:textSize="30sp"
+
+
+></TextView>
+    <LinearLayout
+        android:id="@+id/lnKhungDangKy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="@string/tendangnhap"
+            android:textColorHint="@color/colorGray"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/name"
+            android:drawablePadding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorGray"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="@string/matkhau"
+            android:textColorHint="@color/colorGray"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorGray"
+
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Male"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female"
+
+                />
+        </RadioGroup>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="@string/ngaysinh"
+            android:textColorHint="@color/colorGray"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+            android:drawablePadding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorGray"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="@string/idcard"
+            android:textColorHint="@color/colorGray"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/name"
+            android:drawablePadding="10dp"
+            android:singleLine="true"
+            android:numeric="integer"
+            android:textColor="@color/colorGray"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DangNhap"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@color/cam"
+
+            />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Cancel"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@color/xanh"
+
+
+                />
+    </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
